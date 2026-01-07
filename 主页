@@ -1,0 +1,1388 @@
+# diyi.github.io
+            
+              # diyi.github.io
+            
+            
+          
+
+![repo size](https://img.shields.io/github/repo-size/xuexijianwangzhan1/diyi.github.io) ![issues](https://img.shields.io/github/issues/xuexijianwangzhan1/diyi.github.io) ![license](https://img.shields.io/github/license/xuexijianwangzhan1/diyi.github.io)
+            
+              ![repo size](https://img.shields.io/github/repo-size/xuexijianwangzhan1/diyi.github.io) ![issues](https://img.shields.io/github/issues/xuexijianwangzhan1/diyi.github.io) ![license](https://img.shields.io/github/license/xuexijianwangzhan1/diyi.github.io)
+            
+            
+          
+
+My first repository on GitHub — a simple static site / project landing page. This repository contains the source for a small website (HTML/CSS/JS) and is a starting point you can expand into a personal site or project demo.
+            
+              My first repository on GitHub — a simple static site / project landing page. This repository contains the source for a small website (HTML/CSS/JS) and is a starting point you can expand into a personal site or project demo.
+            
+            
+          
+
+Demo
+            
+              Demo
+            
+            
+          
+- If you enable GitHub Pages for this repo, the site can be published from the repository's main branch. See "Deploy" below for instructions.
+            
+              - If you enable GitHub Pages for this repo, the site can be published from the repository's main branch. See "Deploy" below for instructions.
+            
+            
+          
+
+Table of contents
+            
+              Table of contents
+            
+            
+          
+- [Features](#features)
+            
+              - [Features](#features)
+            
+            
+          
+- [Preview / Screenshots](#preview--screenshots)
+            
+              - [Preview / Screenshots](#preview--screenshots)
+            
+            
+          
+- [Getting started](#getting-started)
+            
+              - [Getting started](#getting-started)
+            
+            
+          
+- [Local development](#local-development)
+            
+              - [Local development](#local-development)
+            
+            
+          
+- [Deploy (GitHub Pages)](#deploy-github-pages)
+            
+              - [Deploy (GitHub Pages)](#deploy-github-pages)
+            
+            
+          
+- [Contributing](#contributing)
+            
+              - [Contributing](#contributing)
+            
+            
+          
+- [License](#license)
+            
+              - [License](#license)
+            
+            
+          
+- [Contact](#contact)
+            
+              - [Contact](#contact)
+            
+            
+          
+
+Features
+            
+              Features
+            
+            
+          
+- Minimal static HTML/CSS structure — easy to customize.
+            
+              - Minimal static HTML/CSS structure — easy to customize.
+            
+            
+          
+- Responsive layout ready for small portfolio or project demo.
+            
+              - Responsive layout ready for small portfolio or project demo.
+            
+            
+          
+- Ready to be extended with Jekyll, Hugo, or any static-site tooling.
+            
+              - Ready to be extended with Jekyll, Hugo, or any static-site tooling.
+            
+            
+          
+
+Preview / Screenshots
+            
+              Preview / Screenshots
+            
+            
+          
+- Add screenshots to the `assets/` directory and reference them here.
+- Example (replace with your images):
+  ![screenshot-placeholder](assets/screenshot-1.png)
+
+Getting started (quick)
+- Clone the repository:
+```bash
+git clone https://github.com/xuexijianwangzhan1/diyi.github.io.git
+cd diyi.github.io
+```
+- Edit or add files (HTML/CSS/JS) in this folder, then commit and push:
+```bash
+git add .
+git commit -m "Update site content"
+git push origin main
+```
+
+Initial upload (if you have a local folder and want to push it as the repo contents)
+```bash
+cd /path/to/local-folder
+git init
+git add .
+git commit -m "Initial upload"
+git branch -M main
+git remote add origin https://github.com/xuexijianwangzhan1/diyi.github.io.git
+git push -u origin main
+```
+
+Local development
+- You can preview static HTML directly in your browser.
+- For a tiny local server (helpful for routes and relative paths):
+  - Python 3:
+    ```bash
+    python -m http.server 8000
+    # then open http://localhost:8000
+    ```
+  - Node (http-server):
+    ```bash
+    npx http-server -p 8000
+    ```
+
+Deploy (GitHub Pages)
+1. Push your site files to the `main` branch (or a branch you choose).
+2. In the repository on GitHub, go to Settings → Pages.
+3. Under "Source" choose the branch (e.g., `main`) and the root (`/`) folder, then Save.
+            
+              3. Under "Source" choose the branch (e.g., `main`) and the root (`/`) folder, then Save.
+            
+            
+          
+4. GitHub will publish the site; after a few minutes the site URL will be shown in the Pages settings.
+            
+              4. GitHub will publish the site; after a few minutes the site URL will be shown in the Pages settings.
+            
+            
+          
+
+Notes
+            
+              Notes
+            
+            
+          
+- If you want a site at the root user domain (https://<username>.github.io/), the repository must be named `<username>.github.io`. Otherwise the site will be hosted at `https://<username>.github.io/<repo>/`.
+            
+              - If you want a site at the root user domain (https://.github.io/), the repository must be named `.github.io`. Otherwise the site will be hosted at `https://.github.io//`.
+            
+            
+          
+- For larger sites consider using Jekyll, Hugo, or a templating system. You can also use a custom domain via Pages settings.
+            
+              - For larger sites consider using Jekyll, Hugo, or a templating system. You can also use a custom domain via Pages settings.
+            
+            
+          
+
+Contributing
+            
+              Contributing
+            
+            
+          
+- Small changes, bug fixes, and documentation improvements are welcome.
+            
+              - Small changes, bug fixes, and documentation improvements are welcome.
+            
+            
+          
+- Typical flow:
+            
+              - Typical flow:
+            
+            
+          
+  1. Fork the repo (or create a branch if you have write access).
+            
+                1. Fork the repo (or create a branch if you have write access).
+            
+            
+          
+  2. Create a branch: `git switch -c feature/your-change`
+            
+                2. Create a branch: `git switch -c feature/your-change`
+            
+            
+          
+  3. Make changes, commit them: `git commit -m "Describe change"`
+            
+                3. Make changes, commit them: `git commit -m "Describe change"`
+            
+            
+          
+  4. Push and open a pull request.
+            
+                4. Push and open a pull request.
+            
+            
+          
+
+Suggested improvements you can add
+            
+              Suggested improvements you can add
+            
+            
+          
+- Add a LICENSE file (e.g., MIT) to clarify reuse.
+            
+              - Add a LICENSE file (e.g., MIT) to clarify reuse.
+            
+            
+          
+- Add a CONTRIBUTING.md with contribution guidelines.
+            
+              - Add a CONTRIBUTING.md with contribution guidelines.
+            
+            
+          
+- Add more screenshots or a short demo GIF to show the site in action.
+            
+              - Add more screenshots or a short demo GIF to show the site in action.
+            
+            
+          
+- Add CI (linting/build) if you introduce a build step.
+            
+              - Add CI (linting/build) if you introduce a build step.
+            
+            
+          
+
+License
+            
+              License
+            
+            
+          
+- No license is specified yet. To allow reuse, add a LICENSE file (for example the MIT license).
+            
+              - No license is specified yet. To allow reuse, add a LICENSE file (for example the MIT license).
+            
+            
+          
+            
+              - No license is specified yet. To allow reuse, add a LICENSE file (for example the MIT license).
+            
+                            - No license is specified yet. To allow reuse, add a LICENSE file (for example the MIT license).
+            
+            
+          
+            
+            
+          
+
+Contact
+            
+              Contact
+            
+            
+          
+            
+              Contact
+            
+                            Contact
+            
+            
+          
+            
+            
+          
+- Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+            
+              - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+            
+            
+          
+            
+              - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+                    
+                      
+                                      - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+                      
+                      
+                                      - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+                      
+                    
+                  
+            
+                            - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+                    
+                      
+                                                    - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+                      
+                      
+                                                    - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+                      
+                    
+                  
+            
+            
+          
+            
+                            - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+            
+                                          - Repository: [xuexijianwangzhan1/diyi.github.io](https://github.com/xuexijianwangzhan1/diyi.github.io)
+            
+            
+          
+            
+                    
+                      
+                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助的地方，请通过仓库问题页面打开一个新问题或直接给我发私信。
+                      
+                    
+                  
+            
+          
+            
+            
+          
+- For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                    
+                      
+                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+          
+                    
+                      
+                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助的地方，请在仓库问题中打开一个新问题或通过仓库问题私信我。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助的地方，请在仓库问题中打开一个新问题或通过仓库问题私信我。
+            
+            
+          
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助的地方，请在仓库问题中打开一个新问题或通过仓库问题私信我。
+                      
+                    
+                  
+            
+                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+                    
+                      
+                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+          
+            
+                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+            
+          
+                      
+                    
+                  
+            
+                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+            
+          
+                    
+                      
+                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                    
+                      
+                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                    
+                      
+                                                                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+                      
+                    
+                  
+            
+                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+                      
+                      
+                    
+                      
+                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+                      
+                    
+                  
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+            
+          
+                      
+                    
+                  
+            
+                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+                    
+                      
+                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                    
+                      
+                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+          
+                      
+                      
+                    
+                      
+                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+                      
+                    
+                  
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+            
+          
+                      
+                    
+                  
+            
+                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+                                                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                    
+                      
+                                                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                    
+                      
+                                                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+                      
+                    
+                  
+            
+                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                    
+                      
+                                                                                                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                      
+                      
+                        - 对于在README或站点中定制的问题或帮助，请通过仓库问题打开一个issue或通过仓库问题私信我。
+            
+                                      - 对于在README或站点中定制的问题或帮助，请通过仓库问题打开一个issue或通过仓库问题私信我。
+            
+            
+          
+                      
+                    
+                  
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+                                                                                                                                                                                                                                - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                                                                              - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                                                                                            - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                                                          - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+                    
+                      
+                                                                                                                                                                                                                                                        - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+            
+          
+            
+                    
+                      
+                                                                                                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                    
+                  
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+                    
+                      
+                                                                                                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+                      
+                      
+                        - 对于在README或站点中定制的问题或帮助，请通过仓库问题打开一个issue或通过仓库问题私信我。
+            
+                                      - 对于在README或站点中定制的问题或帮助，请通过仓库问题打开一个issue或通过仓库问题私信我。
+            
+            
+          
+                      
+                    
+                  
+            
+            
+                    
+                      
+                                                                                                                                                                                                                                                                      - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+                                                                                                                                                                                                                                                                                    - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+                                                                                                                                                                                                                                                                                                  - For questions or help customizing the README or site, open an issue or DM me via the repo issues.
+            
+            
+          
+            
+            
+          
+                      
+                      
+                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        If you have any issues or need help with customizing the README or website, please open an issue through the repository issues or send me a direct message.
+                      
+                    
+                  
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                              - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+            
+          
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                              - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+            
+          
+            
+                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                              - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                                  - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+            
+          
+            
+                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                                  - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+                                                                  - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                          - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+                                                                                - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+            
+          
+            
+            
+          
+            
+                                                                  - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                                                - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+                                                                                - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+                                                                                              - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        - If you have any issues or need help with customizing the README or website, please open an issue through the repository issues or send me a direct message.
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                                              - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                                                      - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        - If you have any issues or need help with customizing the README or website, please open an issue through the repository issues or send me a direct message.
+                      
+                    
+                  
+            
+                                                                                                            - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                                                                    - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        - If you have any issues or need help with customizing the README or website, please open an issue through the repository issues or send me a direct message.
+                      
+                    
+                  
+            
+            
+          
+            
+                                                                                                            - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+                                                                                                                          - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                    
+                      
+                                                                                                                                                  - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+                      
+                      
+                        For any issues or help regarding customizing the README or website, please open an issue through the repository issues or send me a private message directly.
+                      
+                    
+                  
+            
+                                                                                                                                        - 对于在自定义README或网站时遇到的问题或需要帮助，请通过仓库问题打开一个issue或直接给我发私信。
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+                      
+                    
+                  
+          
